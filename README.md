@@ -17,11 +17,11 @@ I came to the conclusion after looking at the existing code that it would need t
 ## Testing
  I only tested the MakePaymentRequest functionality under the following conditions
 
-1. - Invalid Account
-2. - Valid Account but disabled
-3. - Valid account, insufficient balance
-4. - MakeFasterPayment
-5. - MakeChapsPayment```
+1. Invalid Account
+2. Valid Account but disabled
+3. Valid account, insufficient balance
+4. MakeFasterPayment
+5. MakeChapsPayment
 
 It might be worthy to note that if needed it would have been very simple to write the testscripts for the following
 Insufficient Balance - Chaps Payment
